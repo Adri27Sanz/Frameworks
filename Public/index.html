@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" 
+    crossorigin="anonymous">
+
+  <style>
+    
+    .navbar-nav .nav-link {
+      color: white !important;
+      transition: color 0.3s, background-color 0.3s;
+    }
+
+    .navbar-nav .nav-link:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+      color: #fff !important;
+    }
+
+    .navbar {
+      background-color: darkolivegreen !important; 
+      font-family: 'Times New Roman', sans-serif; 
+    }
+    
+
+    .custom-container {
+    background-color: #f1f3f2; 
+    color: darkolivegreen;
+    font-family: 'Times New Roman', sans-serif; 
+    padding: 40px;
+    border-radius: 10px;
+    }
+
+    .custom-container h2 {
+    font-size: 48px; 
+    margin-bottom: 30px;
+  }
+  .custom-container h1 {
+    font-size: 24px; 
+    margin-top: 60 px;
+  }
+  .custom-container a {
+    font-size: 14px; 
+    display: block;
+    margin-top: 10px;
+  }
+
+  .custom-container img {
+    width: 40px; 
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .btn-custom {
+  background-color: #556b2f;
+  color: white;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #6b8e23; 
+}
+
+  </style>
+  
+</head>
+
+<body>
+  <!--menu-->
+  <nav class="navbar navbar-expand-md">
+    
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <div class="d-flex align-items-center">
+        <span class="ms-2" style="color: white; font-size: 26px; font-style: italic; font-weight: bold;">
+          Patitas al Rescate
+        </span>
+      </div>
+      
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> <!--boostrap css-->
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav d-flex justify-content-center">
+          <li class="nav-item mx-3">
+            <a class="nav-link active d-flex align-items-center" href="index.html" aria-current="page">
+              <img 
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAjpJREFUaEPtmV9ywiAQxnd5kMkpak9Se5LqSVpPoj2JvUlzi4gPoYOTdCIBFgJrdCa88u/77cLmQxGevOGT64cFYO4MsmWgaZqNEOJgABFxv1qtjhywLACd+NNQMCLuOCCKA7jE9yAcEEUBQuK5IIoBBMTXALDmOk5FAHzi27Z9F0JsAOCDCyIbICS+qqofE3ml1BcXRBZAjPj+6HBBTAZIEc8JMQlginguiGSAHPEcEEkAJcSXhogGKCm+JEQUAIf4UhAkAKf4EhBBgHuIz4XwAtxTvAXxab8bQi7WCRBylVJK8tjlPFyUUto13wcxEkNZYh+AsQpa6zdE7J3nt5TSeKCrF/L12WJ9AGacMYe9v/q35/YC5/P5hIjGQTqbCyAwp9Za1571ainlawoAAIzmjDKglPq1re9wExugM2mjcxt5jI5Syt1wbCgDUQCDx/jNI6TfxAEQBCZARhHNPkJUSh0AzksXmQGg1qOKBllR7IjYC1J3hgAhjxA7wOVy2Wqtr7//pDZXVaECNvpGUJvGLDjxIo+i35XcmyPJngHqK+oJkFP8rAD9BwsAqJLqFT87QAREUPxDAAQgSPEPA+CAiBL/UAADiBfbLoQqX0zVG87P/pBRZTi1fwFI9UKpEabGLxlwZCDHLlMBp/qdj57US2yM2pbaiamfLL9kFWqaZi2EMH/YOR84TMLNsmT0zSASwAwyEIh46B7s9wA5tm27r6rK/D0VbFEA1CJz9i8Ac0Y/+g7MLTK0/x9UksdA1zbkWwAAAABJRU5ErkJggg==" 
+                style="height: 30px;" 
+                alt="Inicio"
+              />
+            </a>
+          </li>
+          
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link active" aria-current="page" href="Nosotros.html">NOSOTROS</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="Adopciones.html">ADOPCIONES</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">NUESTROS SERVICIOS</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">CONTACTANOS</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link d-flex" href="#">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXJJREFUSEu1VdttwzAMJCF5j2SSxpvUkzSdpOkkdSapO4cVsKVsxXpQDzeIAEMflnjU8XhEePLCJ8eHKgDN8wkAToD4YneA6W8fgeiHd+y6sZRkFoCIDnC7faxBSzEmUKpHRAZOlghAxrwCAAdvXRMQfWLXneMLCcA/gm8xid5jkABgpeW7NW3hXEJXCGDMV5bzNTubBFOI+JZJZESte/fvDlChZkCtL37A4nmi3qlrA5jnczYrpY6xSop0erXwX8CqYfWkSwDgQ2QM1WjyAbi4B/GCoI4KpRNqfeRYbQDcvavOG4psc0StbWwfIK+g/bq9oNZDCFAq8uI/7nNwcr1scbaG81XEhsaviFci0SWG9So2P8lS7nfKjebpOceSIFe50bysfKsoOqXouJGkW8xu8X+AKyi1eL8xLGemNLQL4cWyXZcLLrMl9EqgovjWjoEzglLDroETmBqPTESmxI1M/s2Nd31oZO7vLflGdeg/CvQLa+LSGa3sn80AAAAASUVORK5CYII=" 
+              alt="Perfil Icono" style="width: 24px; height: 24px;">
+              PERFIL
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!--carrusel-->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="max-height: 700px;">
+        <img src="img/ima.1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" style="max-height: 700px;">
+        <img src="img/ima.2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" style="max-height: 700px;">
+        <img src="img/ima.3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+    <!--Ejemplo-->
+    <div class="container-fluid custom-container">
+      <h2 class="text-center">¡Bienvenidos!</h2>
+      <div class="row">
+        <div class="col text-center">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAq5JREFUaEPtmd1t2zAQx3lRBnEmiDeovUNd9K3xW9Fkh8Y7xEXf6seg6g5RNrAnqAaJwpY01VLmkTyKxxgGLCAvBo/8/+6TUkCc+AMnrl+cAY4dwXMETi4Ciy/TGwHynRBiYv5aBQEAz69CNJcvon38vtW/YY+21wZ6j5lZo9dLgFXM/nBPcgp9uJveSym/Ejze/lWyqr9tN/ZaA/6DYK9IltWraEKO6PeJAry/m85ASnWw8njK01QdLJVBV2n73tvUPdqqg3kMIghgxD9RTyyyTsLyMJr2OV6Aj5+nk66Svz2iNkLCswrzy+U+MhdCzKSUn4iR0vbyQujcN7Z2XQ2OrTq48kUCBQiIb+r1bu7ztLFTdbIvVPfRaeUTY+yxdPOmEwqAFSwArH4+bO8paWLsB9GQAPNfD9smwX7QMHznOwAe7wc9722XoLvWJEV8v9fi9lrV3qDwsVRyABDvt/V6d0XxHOca40gF8b/7IQUdBUhJHU4Atdfi9lrVg11Pm3q90625fxyAw9AdFWA/9e3h56QyBiBtwjH5yxUJZA456YwBqN7/L+9CPZhLaKQt27MoHUDdS0KTsCQEcn8iAUQLp6Roe+/DjojVo5tCbuGQLlXcUNg8IgGY9jWog2N0ImyQ1eud4/AiV4ncaGDvDuSrhDXKB1HQv79BQXuu8N7bQOw6PRzlhSF87x+hWRR8ocFulaUiMUa80hJ9pXwLiLHiSQBqUUmIHPFkgFIQueKTALghOMQnA3BBcIkfBZALwSl+NMBYCG7xWQCpECXEZwNQIUqJZwGIQaivbyCl83mS61U1OompN0vvsEM24BLPFoFeIwWCUzw7QDCd9v/AIH9epEaeLYXsA3O/jVLFF4kAlk4lPN+fUyQCKR7MXXsGyPVgrv05ArkezLU/+Qj8AcmUIU/8h7W8AAAAAElFTkSuQmCC"/>
+          <h1>INSPIRAS</h1>
+          <a>Momentos especiales, consejos de cuidado y tus experiencias de adopción. ¡Forma parte de una comunidad que ama y protege a los animales!</a>
+        </div>
+    
+        <div class="col text-center">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAA5hJREFUaEPtWV1y00AMXsW5B+kJkhuQ3IEwvJG8MaR3oLlDw/BG+sYQ7kB6g+QEmHs0WSpjw3qtv7VdmMzUMwwPddb6pE/6JC24C3/gwu13zwD+dwR7i8Cbd5PReegW3vsXzrlR8C8vQeL/ufNw7wcu/3Z72PcBvhOAwOi3pcEpNuUAcPf19nCT8qP43VYAAsM/dPl4FZkuQJIBvLqeTMH77z0YHh/RKiJJAF5fT26895LXCyPOzu2HDy7/8umQY7TQ0oehG8HZjRx4pNuUcUAyCDOA+WqMXqc+nPxRQ+5sd5vj0hJlEwDOeABYd0lCJZdMIFQADG1yD7DsqxQikFNW5FVBt+qxOEgEwCRsvtscr7TwzldjH76z2xzFbzEgUDfWu4+HLfc98dD5avwj8kqenWCGydk3ADyPAyE5jAVAUccDzDTazN9PFg78y0fVXUQgt9kJ1hr4EgQ6LnzYfGABxBTQ+GjVB+0ctLp0wucAAUtbEgDlfYnDBn2ouVMDQVGJ+w0JoMF9D0sukayej3MmO8GVRCdrFDgA5grCaETBdzQajSxBIiX+lEljFGq5QOVgAwCBXBSUOFe4RCcitd9tjjOpmsXOoUA3AazG6Km/FUSgT5FwUanVqKGV3/DvhDMboCkAtZ5HK52EVuw9wBqbuYpCKUaH71qiRgGoiZfmUWMFKqYxALjHTlXTkgoEoQmNckoBMCdw9SEiCprT99kJli1E7WkAlJ7C3OH6fAqQqS3ReqrOFIo5O3Bu6n0xtFRPrcMM329RSk0RSEpijStVk1ZMZN7XtOAxYmIpbZvENQCalywAhKR0Uoti0SSLkIleStEBwqPibNFQeUKTGgAspasmNs1ZuRhCsrMrFldBK4F5EbfYmnNqFZEq6VwvVB/gn6CZQ3CSSBL0IelGA/g9lJj6cTTEKGZJLXVMzaR2OnUqCkCYVoxae5Iyj/ATGREFyyaiTFRcfsWitsXFLuaGpMDUfCFVQhYAN2D/g6E+nofFUitvJZpRQLb00gLE+sG1IxrdWi+2tH1NisBxY6lFRFUAQpVJ3olSoIQKpk5seJ4JgLLDTAZiuF8wGW8GUHlOqffVFdIdXiFR6/WyU8WlF9t2W2hT62hTuIrvUhuG1DOY91stjE0UoipGeaF3eVdMIZiAyyItOI93uRurzmwVAcqgoo4P3LRc7LLXrADws8ulSPzt3gD0lAfJxzwDSHZZzz+4+Aj8Aiqn4k9A6FezAAAAAElFTkSuQmCC"/>
+          <h1>OFERTAS</h1>
+          <a>Productos para tu mascota con descuentos especiales. Collares, juguetes, alimento premium y mucho más… ¡Todo en un solo lugar!</a>
+        </div>
+    
+        <div class="col text-center">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAkRJREFUaEPtl1FSwjAQhnct9xBOAEeAO9gZH+HNEe+g3IE6vglvjvUO1huUE9iDiJEtLZY2YZNAQMbkjSFt9tv/390U4cwXnnn84AFOraAzBcJx9xMAsmCJo5enNHMF6hJAlEEj4uR1mj64gDgKQB64wFH8mM4ODXE8AIAkjhaDcwZQxU71YV0rx1SATb5NrfwpACI0hfhzAKYQDYCru14fhXheNw4cvU3ThNVesiEcdzdtVPF8IhAnecBC3ANAnzkn31+PpwEQjrvvlZdlcbTouAAIltgpB1yRNDqXW41OJgPYylwcLaxsxilQBbi+6bWXgaDJza56PJwCZKOBjY04gJXKCV0zvlrQ1rRQDqcDQP4fVlJhZSMNADbbkg2NWFRFXPdjZlrQxWWubROl6hlZi5X6Oxx36ypox1Fabp93qA6r1k25RwpQFBWpYJPBWRwtRuFtbwi4bscHWlIrKzsMQXy3YCjWPdpkbQ46pI1UzYRtkTbFWHp1TyV/k7bjKu4EoLhdDmhQFVYiFW3syDYPVwCUvY2VCiUIotqed9kyAYFznQ8glwA5RLDEXAn6oaHGTCDOTQana4AcAhHn9W9iuv9cAPSFEJcg8EMn2zLJjgFQnput7iUT20CVw43rjzZdiHkn2Wl9Rd8j8zsHWTUABwBbfLa3XQ/AWU/3f68AlylfA0yGTmYh04NVSpq+p54P60FmerAHUFjRK8B1sfJ/byFvoVoGfBcqEmKaiP83B3S7zKn2sXPgVIHpnusBdDPlat8P5QJzQO41Y68AAAAASUVORK5CYII="/>
+          <h1>POST ADOPCIÓN</h1>
+          <a>Compromiso no termina en la entrega. Muy pronto podrás contarnos cómo crecen y se adaptan tus nuevos amigos peludos. ¡Queremos ser parte de su historia!</a>
+        </div>
+      </div>
+    </div>
+
+
+      <!--Tarjetas-->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card border-0">
+              <img src="img/tar.1.png" class="card-img-top" alt="30">
+              <div class="card-body text-center">
+                <h5 class="card-title">PERRITOS EN ADOPCIÓN</h5>
+                <a href="Adopciones.html" class="btn btn-custom">MOSTRAR MÁS</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col">
+            <div class="card border-0">
+              <img src="img/tar.2.png" class="card-img-top" alt="30">
+              <div class="card-body text-center">
+                <h5 class="card-title">GATITOS EN ADOPCIÓN</h5>
+                <a href="Adopciones.html" class="btn btn-custom">MOSTRAR MÁS</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" 
+      crossorigin="anonymous"></script>  <!--boostrap js-->
+  </div>
+
+  <!--Pie de pagina-->
+
+<footer class="navbar navbar-expand-md" style="background-color: green; height: auto; padding: 10px 0;">
+  <div class="container-fluid d-flex flex-column justify-content-center align-items-center">
+
+    <span class="text-white" style="font-size: 16px; font-style: italic;">
+      © 2025 Patitas al Rescate - Todos los derechos reservados
+    </span>
+
+
+    <div class="mt-2">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAW1JREFUSEu1le1xgzAMhuUP9kgmKWwCk7SZJHSSsEnpHGCrJw77jL991/hXAuZ9JL2yzODNi71ZH4qAbdt6znmPiB+MsR4AVgBYAOBXa710XUe/kysJQMSbUup5iuY0Vs75wBgjcLCiAKXUFwB8NpSPxL+FEPTdZQWABnESvXl6Dx9yAVBZtNY/mchXRHxIKWezxwto1VpPri8XwL7vr1zNOed3v9aRjFchxN0EYAH7vo+MsWcm+lkIMZn3Z7aj0132U631YLKwgIra2/pWBGP3ugCKfkxlgIiTqX0pGERcpJQDabkAMtfvCstrAdBhND6UABfDYtmlGkMIcWi7Jsc6qAhQSsUytw1RMvkYA0ckziigDjLZJM5NCDiH2uufTLYNUX3Qak12O+jiAf3JjYpagHvIAgA9SPV4JSA/7BID7HhcArjvXR+rL5wMIJigVQB/qLnX4zmLbpzzOXWTBdO04fZq2lq89JvUIpv/AFySESigbgckAAAAAElFTkSuQmCC" 
+      alt="Logo pequeño" style="width: 32px; height: 32px;">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUVJREFUSEvlVdF1gzAMRBbsQSZpOknJJGknKZkkdJKyB7bUXh7kGbANznv5Cj82WPL5TvJBxZMfevL+xYsCDMNwJKIzEdWjxBdm/lTVWkQazCfpZxJZa6/MfCKiPlYba21DRN+BdeTUqnoqy7INAjjntCgKBN5OFAIZY2L4yO1E5FJVVYegO4OR3q+X+WWMaX02idPf00Tkfdp8BoAXSERERw+kV9UbI4zQPCLPlNJCYp/esgbQ9wwtH7wfcYCARNkYywLvkSgLxBhzWHbgTKKRxfVRiZh55QyrD7hExpiP/3Ztco4fkmcl0dhJsYuUwuuZ+RAKCJqdcw6XDN2061n2frRN/YXJV7aAYtIErQIfsTFGEQGDZB1SJ18B5HSQqnZbphhkABDnHKz4DXPPjsEMVvGz9KetIr3oH21Lll1tmrNJKvYPS6OtGZ5qUJIAAAAASUVORK5CYII="
+      alt="Logo pequeño" style="width: 32px; height: 32px;">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbRJREFUSEvFVUtOw0AM9Se9Atu2J2m7Yc8BkNqTlErcg/YYrCgnobBgzzozNjiaGU0+pFOkiuyi2H7Pz88OwpUfvHJ9+B8AVZ2JyFpVF4i4HOnyFL4diWiHiPE9pfQ6cM6tEfEpRFjCcUxGIxNIWOyBmR/y+BZAYP6mqseqqlal8wl5LxYvIpvJZJJItQC898Z8TUTzoXa7gM65e0TcAcAXEd2JSI9cF8ACTkPsg3QzAJiq6mtVVfu6rm+J6BkAPph56pxrusjzuwAKAHtm3kS21r51NjDsk6o+AsAnM98g4sEAEHHGzPOYfxYgJJmTdjbA6DAA2P7IecqLRYmZOdUdBcgc1RTPZxC/icgqDrUUIBUbG3p0XOzMwP8CYKy3v7nKe28z6xE6J1FKqOt6SUTmjJ5E3vsGXFU35qhLOkguyhxk9my2NB9ydyFLJSq2KRGt8oU8CzC0KNZ66GSJiAsAeA/L2MiSP9773qIOnQrTvcWs5CZlrmopMHjsbIEuAcm3Pd8LIzZ2rtOtLzzXJmVy1OCpyO+PiJgF460fw2j+GSJyyM/0KECJ5qUx//NPLmVXEvcNlLpeKF+RnWgAAAAASUVORK5CYII="
+      alt="Logo pequeño" style="width: 32px; height: 32px;">
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>

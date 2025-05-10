@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" 
+    crossorigin="anonymous">
+
+  <style>
+    
+    .navbar-nav .nav-link {
+      color: white !important;
+      transition: color 0.3s, background-color 0.3s;
+    }
+
+    .navbar-nav .nav-link:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+      color: #fff !important;
+    }
+
+    .navbar {
+      background-color: darkolivegreen !important; 
+      font-family: 'Times New Roman', sans-serif; 
+    }
+    
+
+    .custom-container {
+    background-color: #f1f3f2; 
+    color: darkolivegreen;
+    font-family: 'Times New Roman', sans-serif; 
+    padding: 40px;
+    border-radius: 10px;
+    }
+
+    .custom-container h2 {
+    font-size: 48px; 
+    margin-bottom: 30px;
+  }
+  .custom-container h1 {
+    font-size: 24px; 
+    margin-top: 60 px;
+  }
+  .custom-container a {
+    font-size: 14px; 
+    display: block;
+    margin-top: 10px;
+  }
+
+  .custom-container img {
+    width: 40px; 
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .btn-custom {
+  background-color: #556b2f;
+  color: white;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #6b8e23; 
+}
+
+  </style>
+  
+</head>
+
+<body>
+  <!--menu-->
+  <nav class="navbar navbar-expand-md">
+    
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <div class="d-flex align-items-center">
+        <span class="ms-2" style="color: white; font-size: 26px; font-style: italic; font-weight: bold;">
+          Patitas al Rescate
+        </span>
+      </div>
+      
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> <!--boostrap css-->
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav d-flex justify-content-center">
+          <li class="nav-item mx-3">
+            <a class="nav-link active d-flex align-items-center" href="index.html" aria-current="page">
+              <img 
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAjpJREFUaEPtmV9ywiAQxnd5kMkpak9Se5LqSVpPoj2JvUlzi4gPoYOTdCIBFgJrdCa88u/77cLmQxGevOGT64cFYO4MsmWgaZqNEOJgABFxv1qtjhywLACd+NNQMCLuOCCKA7jE9yAcEEUBQuK5IIoBBMTXALDmOk5FAHzi27Z9F0JsAOCDCyIbICS+qqofE3ml1BcXRBZAjPj+6HBBTAZIEc8JMQlginguiGSAHPEcEEkAJcSXhogGKCm+JEQUAIf4UhAkAKf4EhBBgHuIz4XwAtxTvAXxab8bQi7WCRBylVJK8tjlPFyUUto13wcxEkNZYh+AsQpa6zdE7J3nt5TSeKCrF/L12WJ9AGacMYe9v/q35/YC5/P5hIjGQTqbCyAwp9Za1571ainlawoAAIzmjDKglPq1re9wExugM2mjcxt5jI5Syt1wbCgDUQCDx/jNI6TfxAEQBCZARhHNPkJUSh0AzksXmQGg1qOKBllR7IjYC1J3hgAhjxA7wOVy2Wqtr7//pDZXVaECNvpGUJvGLDjxIo+i35XcmyPJngHqK+oJkFP8rAD9BwsAqJLqFT87QAREUPxDAAQgSPEPA+CAiBL/UAADiBfbLoQqX0zVG87P/pBRZTi1fwFI9UKpEabGLxlwZCDHLlMBp/qdj57US2yM2pbaiamfLL9kFWqaZi2EMH/YOR84TMLNsmT0zSASwAwyEIh46B7s9wA5tm27r6rK/D0VbFEA1CJz9i8Ac0Y/+g7MLTK0/x9UksdA1zbkWwAAAABJRU5ErkJggg==" 
+                style="height: 30px;" 
+                alt="Inicio"
+              />
+            </a>
+          </li>
+          
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link active" aria-current="page" href="Nosotros.html">NOSOTROS</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="Adopciones.html">ADOPCIONES</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">NUESTROS SERVICIOS</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">CONTACTANOS</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link d-flex" href="#">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXJJREFUSEu1VdttwzAMJCF5j2SSxpvUkzSdpOkkdSapO4cVsKVsxXpQDzeIAEMflnjU8XhEePLCJ8eHKgDN8wkAToD4YneA6W8fgeiHd+y6sZRkFoCIDnC7faxBSzEmUKpHRAZOlghAxrwCAAdvXRMQfWLXneMLCcA/gm8xid5jkABgpeW7NW3hXEJXCGDMV5bzNTubBFOI+JZJZESte/fvDlChZkCtL37A4nmi3qlrA5jnczYrpY6xSop0erXwX8CqYfWkSwDgQ2QM1WjyAbi4B/GCoI4KpRNqfeRYbQDcvavOG4psc0StbWwfIK+g/bq9oNZDCFAq8uI/7nNwcr1scbaG81XEhsaviFci0SWG9So2P8lS7nfKjebpOceSIFe50bysfKsoOqXouJGkW8xu8X+AKyi1eL8xLGemNLQL4cWyXZcLLrMl9EqgovjWjoEzglLDroETmBqPTESmxI1M/s2Nd31oZO7vLflGdeg/CvQLa+LSGa3sn80AAAAASUVORK5CYII=" 
+              alt="Perfil Icono" style="width: 24px; height: 24px;">
+              PERFIL
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+ 
